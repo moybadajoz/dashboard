@@ -142,7 +142,7 @@ body {
 
 .col-div-4{
     width: 30%;
-    float: 30%;
+    float: left;
 }
 
 .content-box {
@@ -164,7 +164,7 @@ body {
 
 .box-8, .box-4{
     width: 95%;
-    height: 350px;
+    height: 360px;
     background-color: #272c4a;
 }
 
@@ -188,6 +188,10 @@ td, th{
     color: #ddd;
     border-bottom: 1px solid #818181;
 
+}
+
+tr:last-child td{
+    border-bottom: none;
 }
 
 .circle-wrap{
